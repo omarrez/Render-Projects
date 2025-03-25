@@ -22,7 +22,7 @@ if histogram_button:
     
 scatter_button = st.button('Construir Diagrama Dispersion')
 if scatter_button:
-    st.write('Diagrama de dispersoin para Aanlizar la relacion de los Autos de USA y su precio')
+    st.write('Diagrama de dispersion para Analizar la relacion de los Autos de USA y su precio')
     
     fig2 = px.scatter(cars_df,x='odometer',y='price')
     
